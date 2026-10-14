@@ -5,7 +5,7 @@ I like building deep-learning models **and checking that their results hold up**
 
 - 🔐 **Most recent:** AI / Deep Learning intern at **PQShield** (Paris, 2026). Deep-learning side-channel analysis of post-quantum cryptography (masked ML-KEM / Kyber). Co-authored paper *under review* at IACR Communications in Cryptology.
 - 🎧 **Audio, vision, video:** CNNs, Vision Transformers, self-supervised video models (VideoMAE, V-JEPA).
-- 🔎 **Open to** ML / AI engineer and research-engineer roles in France and remote Europe.
+- 🔎 **Open to** ML / AI engineer and research-engineer roles. Based in Paris, open to relocation and remote.
 
 ---
 
@@ -19,8 +19,8 @@ I like building deep-learning models **and checking that their results hold up**
 
 #### Tools
 
-**Daily:** Python · PyTorch · NumPy / pandas · scikit-learn · Jupyter · Git
-**Also used:** torchvision · timm · Hugging Face Transformers · librosa · OpenCV · YOLOv8 · GPU cluster jobs (OAR) · SQL (basic) · R (basic) · Java
+- **Daily:** Python · PyTorch · NumPy / pandas · scikit-learn · Jupyter · Git
+- **Also used:** torchvision · timm · Hugging Face Transformers · librosa · OpenCV · YOLOv8 · GPU cluster jobs (OAR) · SQL (basic) · R (basic) · Java
 
 #### Find me
 
