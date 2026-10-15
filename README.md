@@ -13,7 +13,7 @@ I like building deep-learning models **and checking that their results hold up**
 
 | Project | What it shows |
 |---|---|
-| [**BirdCLEF+ 2025: bird sound classification**](https://github.com/youssef-khazal/birdclef-2025) | 206 species from audio spectrograms. Five models compared (CNN, ResNet18, EfficientNet-B0, VGG16, ViT) with a leakage-free, recording-level evaluation, tests and CI. |
+| [**BirdCLEF+ 2025: bird sound classification**](https://github.com/youssef-khazal/birdclef-2025) | 206 species from audio spectrograms. Five models compared on held-out recordings; best: EfficientNet-B0, 0.96 ROC-AUC. Tests and CI. |
 
 ---
 
