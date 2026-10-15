@@ -14,6 +14,7 @@ I like building deep-learning models **and checking that their results hold up**
 | Project | What it shows |
 |---|---|
 | [**BirdCLEF+ 2025: bird sound classification**](https://github.com/youssef-khazal/birdclef-2025) | 206 species from audio spectrograms. Five models compared on held-out recordings; best: EfficientNet-B0, 0.96 ROC-AUC. Tests and CI. |
+| [**Facial emotion recognition in videos**](https://github.com/youssef-khazal/dfer-video-ssl) | Four video transformers (VideoMAE, V-JEPA 2) fine-tuned on 16,000 movie clips under one protocol; best: 58.3% UAR / 70.2% accuracy on the test set. With Melissa Fahed. |
 | [**Learning to race with deep Q-learning**](https://github.com/youssef-khazal/rl-racing-dqn) | Custom 2D racing game and a DQN agent that beats a rule-based car in 90% of 100 evaluation races. Reward-design study, demo GIF, tests and CI. |
 
 ---
