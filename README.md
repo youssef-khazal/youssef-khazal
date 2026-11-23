@@ -5,6 +5,7 @@ I like building deep-learning models **and checking that their results hold up**
 
 - 🔐 **Most recent:** AI / Deep Learning intern at **PQShield** (Paris, 2026). Deep-learning side-channel analysis of post-quantum cryptography (masked ML-KEM / Kyber). Co-authored paper *under review* at IACR Communications in Cryptology.
 - 🗂️ **LLMs and RAG:** a local assistant for French administrative procedures, built on official open data, with reliability measured on 163 test questions, and a QLoRA fine-tune of a smaller model for it.
+- 📊 **Statistics and experimentation:** how reliable A/B test decisions are, on 17,744 real headline tests, with an analysis plan frozen in git before the main data was opened.
 - 🎧 **Audio, vision, video, RL:** CNNs, Vision Transformers, self-supervised video models (VideoMAE, V-JEPA), deep Q-learning.
 - 🔎 **Open to** ML / AI engineer and research-engineer roles. Based in Paris, open to relocation and remote.
 
@@ -15,6 +16,7 @@ I like building deep-learning models **and checking that their results hold up**
 | Project | What it shows |
 |---|---|
 | [**Démarches FR: RAG assistant for French administrative procedures**](https://github.com/youssef-khazal/fr-admin-assistant) | Local assistant (Qwen3-8B, hybrid BM25 + bge-m3 search, reranker) over 3,000 official Service-Public.fr guides, answering in French, English and Arabic with citations. 163-question test set, 650+ answers checked against the official text (LLM judge validated against a reference grading): right behaviour in 93% of cases, 100% on emergency and prompt-injection questions. Plus a QLoRA fine-tune of Qwen3-4B on 658 teacher answers, trained on an 8 GB GPU: +6 points of facts found over the base 4B, measured against the 8B ([model on Hugging Face](https://huggingface.co/youssef-khazal/qwen3-4b-demarches-lora)). Chat UI, Docker, tests and CI. |
+| [**A/B test reliability: how often does a test pick the wrong winner?**](https://github.com/youssef-khazal/ab-test-reliability) · [live calculator](https://huggingface.co/spaces/youssef-khazal/is-my-winner-real) | 17,744 real headline A/B tests from the Upworthy Research Archive. Analysis plan and 8 predictions committed before the main data was opened; empirical Bayes estimate of true effects, simulation of stopping rules (peeking), and a local LLM (Qwen3-8B) compared with the statistics. Finding: the textbook noise formula held, but most tests were too small (only 23% of comparisons conclusive). An audit found an error in the main result; it is corrected and reported openly. SQL (DuckDB), SciPy, statsmodels. |
 | [**BirdCLEF+ 2025: bird sound classification**](https://github.com/youssef-khazal/birdclef-2025) | 206 species from audio spectrograms. Five models compared on held-out recordings; best: EfficientNet-B0, 0.96 ROC-AUC. Tests and CI. |
 | [**Species classifier: deployed model**](https://github.com/youssef-khazal/birdclef-api) · [live demo](https://huggingface.co/spaces/youssef-khazal/species-sound-classifier) | The BirdCLEF model served in production style: ONNX export (2.3x faster on CPU), FastAPI + Docker API tested in CI, and an in-browser demo (ONNX Runtime Web). |
 | [**Facial emotion recognition in videos**](https://github.com/youssef-khazal/dfer-video-ssl) | Four video transformers (VideoMAE, V-JEPA 2) fine-tuned on 16,000 movie clips under one protocol; best: 58.3% UAR / 70.2% accuracy on the test set. With Melissa Fahed. |
@@ -25,7 +27,7 @@ I like building deep-learning models **and checking that their results hold up**
 #### Tools
 
 - **Daily:** Python · PyTorch · NumPy / pandas · scikit-learn · Jupyter · Git
-- **Also used:** torchvision · timm · Hugging Face Transformers · ONNX Runtime · FastAPI · Docker · Ollama · PEFT / LoRA · bitsandbytes · sentence-transformers · TensorFlow / Keras · Gymnasium · librosa · OpenCV · YOLOv8 · GPU cluster jobs (OAR) · SQL (basic) · R (basic) · Java
+- **Also used:** torchvision · timm · Hugging Face Transformers · ONNX Runtime · FastAPI · Docker · Ollama · PEFT / LoRA · bitsandbytes · sentence-transformers · TensorFlow / Keras · Gymnasium · librosa · OpenCV · YOLOv8 · SciPy · statsmodels · DuckDB · GPU cluster jobs (OAR) · SQL · R (basic) · Java
 
 #### Find me
 
